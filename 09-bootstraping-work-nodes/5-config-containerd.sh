@@ -12,7 +12,7 @@ cat <<EOF | sudo tee /etc/containerd/config.toml
             runtime_root = ""
 EOF
 
-cat <<EOF |sudo tee /etc/systemd/syste/containerd.service
+cat <<EOF |sudo tee /etc/systemd/system/containerd.service
 [Unit]
 Description=containerd container runtime
 Documentation=https://containerd.io
